@@ -1,0 +1,93 @@
+link 1 as child of 0
+0
+2
+link 3 as child of 2
+link 2 as child of 0
+0
+4
+link 5 as child of 4
+4
+6
+link 7 as child of 6
+link 6 as child of 4
+link 4 as child of 0
+0
+8
+link 9 as child of 8
+8
+10
+link 11 as child of 10
+link 10 as child of 8
+8
+12
+link 13 as child of 12
+12
+14
+link 15 as child of 14
+link 14 as child of 12
+link 12 as child of 8
+link 8 as child of 0
+0
+link 16 as child of 17
+17
+18
+link 18 as child of 19
+link 17 as child of 19
+19
+20
+link 20 as child of 21
+21
+22
+link 22 as child of 23
+link 21 as child of 23
+link 19 as child of 23
+23
+24
+link 24 as child of 25
+25
+26
+link 26 as child of 27
+link 25 as child of 27
+27
+28
+link 28 as child of 29
+29
+30
+link 30 as child of 31
+link 29 as child of 31
+link 27 as child of 31
+link 23 as child of 31
+31
+Final configuration:
+node: 0 v: 0 rank: 4 child: 8 brother: -1 father: -1 
+node: 1 v: 1 rank: 0 child: -1 brother: -1 father: 0 
+node: 2 v: 2 rank: 1 child: 3 brother: 1 father: 0 
+node: 3 v: 3 rank: 0 child: -1 brother: -1 father: 2 
+node: 4 v: 4 rank: 2 child: 6 brother: 2 father: 0 
+node: 5 v: 5 rank: 0 child: -1 brother: -1 father: 4 
+node: 6 v: 6 rank: 1 child: 7 brother: 5 father: 4 
+node: 7 v: 7 rank: 0 child: -1 brother: -1 father: 6 
+node: 8 v: 8 rank: 3 child: 12 brother: 4 father: 0 
+node: 9 v: 9 rank: 0 child: -1 brother: -1 father: 8 
+node: 10 v: 10 rank: 1 child: 11 brother: 9 father: 8 
+node: 11 v: 11 rank: 0 child: -1 brother: -1 father: 10 
+node: 12 v: 12 rank: 2 child: 14 brother: 10 father: 8 
+node: 13 v: 13 rank: 0 child: -1 brother: -1 father: 12 
+node: 14 v: 14 rank: 1 child: 15 brother: 13 father: 12 
+node: 15 v: 15 rank: 0 child: -1 brother: -1 father: 14 
+node: 16 v: 0 rank: 0 child: -1 brother: -1 father: 17 
+node: 17 v: 0 rank: 1 child: 16 brother: 18 father: 19 
+node: 18 v: 0 rank: 0 child: -1 brother: -1 father: 19 
+node: 19 v: 0 rank: 2 child: 17 brother: 21 father: 23 
+node: 20 v: 0 rank: 0 child: -1 brother: -1 father: 21 
+node: 21 v: 0 rank: 1 child: 20 brother: 22 father: 23 
+node: 22 v: 0 rank: 0 child: -1 brother: -1 father: 23 
+node: 23 v: 0 rank: 3 child: 19 brother: 27 father: 31 
+node: 24 v: 0 rank: 0 child: -1 brother: -1 father: 25 
+node: 25 v: 0 rank: 1 child: 24 brother: 26 father: 27 
+node: 26 v: 0 rank: 0 child: -1 brother: -1 father: 27 
+node: 27 v: 0 rank: 2 child: 25 brother: 29 father: 31 
+node: 28 v: 0 rank: 0 child: -1 brother: -1 father: 29 
+node: 29 v: 0 rank: 1 child: 28 brother: 30 father: 31 
+node: 30 v: 0 rank: 0 child: -1 brother: -1 father: 31 
+node: 31 v: 0 rank: 4 child: 23 brother: -1 father: -1 
